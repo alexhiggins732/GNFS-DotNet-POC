@@ -219,7 +219,7 @@ namespace GNFS_Winforms
 			if (DoesSaveFileExist)
 			{
 				ControlBridge.SetControlEnabledState(btnLoad, true);
-				ControlBridge.SetControlEnabledState(btnCreate, false);
+				ControlBridge.SetControlEnabledState(btnCreate, true);
 				ControlBridge.SetControlEnabledState(btnSave, true);
 			}
 			else
@@ -507,7 +507,8 @@ namespace GNFS_Winforms
 							degree, // Polynomial Degree
 							bound, //  BigInteger
 							relationQuantity, // Total # of relations to collect before proceeding.
-							relationValueRange // 
+							relationValueRange, // 
+							true // create new serialization data
 						);
 					timer.Stop();
 					SetGnfs(this, localGnfs);
