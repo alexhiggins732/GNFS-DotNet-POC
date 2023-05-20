@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GNFSPoly", "GNFSPoly\GNFSPo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNFSPolyTests", "GNFSPolyTests\GNFSPolyTests.csproj", "{3F320A51-5A20-4A9A-903F-EEBBCF450B14}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaChallengPolynomials", "RsaChallengPolynomials\RsaChallengPolynomials.csproj", "{E651D264-E48C-45F3-BBD6-7D0BE3B66561}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaChallengePolynomials", "RsaChallengePolynomials\RsaChallengePolynomials.csproj", "{E651D264-E48C-45F3-BBD6-7D0BE3B66561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
