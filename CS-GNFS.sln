@@ -1,13 +1,19 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNFSCore", "GNFSCore\GNFSCore.csproj", "{2AD1979D-4661-48F1-B264-81001452DB8A}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNFS-Winforms", "GNFS-Winforms\GNFS-Winforms.csproj", "{999F4869-60CB-40A1-BEAD-6965550846A1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestGNFS.Integration", "TestGNFS\TestGNFS.Integration.csproj", "{270FD84F-566B-4B4A-A46B-E615F47284B5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "GNFSPoly", "GNFSPoly\GNFSPoly.csproj", "{F6F4FBAF-D1AE-4B88-BA41-676FD2C5FAF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GNFSPolyTests", "GNFSPolyTests\GNFSPolyTests.csproj", "{3F320A51-5A20-4A9A-903F-EEBBCF450B14}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RsaChallengPolynomials", "RsaChallengPolynomials\RsaChallengPolynomials.csproj", "{E651D264-E48C-45F3-BBD6-7D0BE3B66561}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,8 +33,23 @@ Global
 		{270FD84F-566B-4B4A-A46B-E615F47284B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{270FD84F-566B-4B4A-A46B-E615F47284B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{270FD84F-566B-4B4A-A46B-E615F47284B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F4FBAF-D1AE-4B88-BA41-676FD2C5FAF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F4FBAF-D1AE-4B88-BA41-676FD2C5FAF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F4FBAF-D1AE-4B88-BA41-676FD2C5FAF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F4FBAF-D1AE-4B88-BA41-676FD2C5FAF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F320A51-5A20-4A9A-903F-EEBBCF450B14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F320A51-5A20-4A9A-903F-EEBBCF450B14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F320A51-5A20-4A9A-903F-EEBBCF450B14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F320A51-5A20-4A9A-903F-EEBBCF450B14}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E651D264-E48C-45F3-BBD6-7D0BE3B66561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E651D264-E48C-45F3-BBD6-7D0BE3B66561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E651D264-E48C-45F3-BBD6-7D0BE3B66561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E651D264-E48C-45F3-BBD6-7D0BE3B66561}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AB5D907-B9BE-4082-A114-40BC30F09607}
 	EndGlobalSection
 EndGlobal
