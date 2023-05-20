@@ -1,0 +1,19 @@
+{
+  "N": 45113,
+  "Factorization": null,
+  "PolynomialBase": 31,
+  "CurrentRelationsProgress": {
+    "A": 0,
+    "B": 3,
+    "SmoothRelations_TargetQuantity": 70,
+    "ValueRange": 1000,
+    "MaxB": 87
+  },
+  "PrimeFactorBase": {
+    "RationalFactorBaseMax": 29,
+    "AlgebraicFactorBaseMax": 87,
+    "QuadraticFactorBaseMin": 107,
+    "QuadraticFactorBaseMax": 667,
+    "QuadraticBaseCount": 10
+  }
+}

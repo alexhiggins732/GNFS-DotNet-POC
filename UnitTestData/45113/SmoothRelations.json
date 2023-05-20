@@ -1,0 +1,771 @@
+{
+  "A": 2,
+  "B": 3,
+  "AlgebraicNorm": 134,
+  "RationalNorm": 95,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "5": 1,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -16,
+  "B": 3,
+  "AlgebraicNorm": -20008,
+  "RationalNorm": 77,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 3,
+    "41": 1,
+    "61": 1
+  },
+  "RationalFactorization": {
+    "7": 1,
+    "11": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 17,
+  "B": 3,
+  "AlgebraicNorm": -3871,
+  "RationalNorm": 110,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "7": 2,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "2": 1,
+    "5": 1,
+    "11": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 14,
+  "B": 5,
+  "AlgebraicNorm": -2806,
+  "RationalNorm": 169,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 1,
+    "23": 1,
+    "61": 1
+  },
+  "RationalFactorization": {
+    "13": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 37,
+  "B": 5,
+  "AlgebraicNorm": -26197,
+  "RationalNorm": 192,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "17": 1,
+    "23": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "2": 6,
+    "3": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -43,
+  "B": 6,
+  "AlgebraicNorm": -292537,
+  "RationalNorm": 143,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "7": 1,
+    "23": 2,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "11": 1,
+    "13": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -8,
+  "B": 7,
+  "AlgebraicNorm": -21344,
+  "RationalNorm": 209,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 5,
+    "23": 1,
+    "29": 1
+  },
+  "RationalFactorization": {
+    "11": 1,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 38,
+  "B": 7,
+  "AlgebraicNorm": -45494,
+  "RationalNorm": 255,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 1,
+    "23": 2,
+    "43": 1
+  },
+  "RationalFactorization": {
+    "3": 1,
+    "5": 1,
+    "17": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -7,
+  "B": 9,
+  "AlgebraicNorm": -29233,
+  "RationalNorm": 272,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "23": 1,
+    "31": 1,
+    "41": 1
+  },
+  "RationalFactorization": {
+    "2": 4,
+    "17": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 44,
+  "B": 9,
+  "AlgebraicNorm": -78652,
+  "RationalNorm": 323,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 2,
+    "7": 1,
+    "53": 2
+  },
+  "RationalFactorization": {
+    "17": 1,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 4,
+  "B": 11,
+  "AlgebraicNorm": 812,
+  "RationalNorm": 345,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 2,
+    "7": 1,
+    "29": 1
+  },
+  "RationalFactorization": {
+    "3": 1,
+    "5": 1,
+    "23": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 115,
+  "B": 11,
+  "AlgebraicNorm": -268363,
+  "RationalNorm": 456,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "43": 1,
+    "79": 2
+  },
+  "RationalFactorization": {
+    "2": 3,
+    "3": 1,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 175,
+  "B": 13,
+  "AlgebraicNorm": 227599,
+  "RationalNorm": 578,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "43": 1,
+    "67": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "2": 1,
+    "17": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 536,
+  "B": 15,
+  "AlgebraicNorm": 92819456,
+  "RationalNorm": 1001,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 12,
+    "17": 1,
+    "31": 1,
+    "43": 1
+  },
+  "RationalFactorization": {
+    "7": 1,
+    "11": 1,
+    "13": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 33,
+  "B": 17,
+  "AlgebraicNorm": -4489,
+  "RationalNorm": 560,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "67": 2
+  },
+  "RationalFactorization": {
+    "2": 4,
+    "5": 1,
+    "7": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -1,
+  "B": 19,
+  "AlgebraicNorm": -65627,
+  "RationalNorm": 588,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "29": 1,
+    "31": 1,
+    "73": 1
+  },
+  "RationalFactorization": {
+    "2": 2,
+    "3": 1,
+    "7": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 35,
+  "B": 19,
+  "AlgebraicNorm": 5293,
+  "RationalNorm": 624,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "67": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "2": 4,
+    "3": 1,
+    "13": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 25,
+  "B": 21,
+  "AlgebraicNorm": 64387,
+  "RationalNorm": 676,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "31": 2,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "2": 2,
+    "13": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -16,
+  "B": 25,
+  "AlgebraicNorm": -515096,
+  "RationalNorm": 759,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 3,
+    "31": 2,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "3": 1,
+    "11": 1,
+    "23": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 17,
+  "B": 25,
+  "AlgebraicNorm": 79663,
+  "RationalNorm": 792,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "29": 1,
+    "41": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "2": 3,
+    "3": 2,
+    "11": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 49,
+  "B": 26,
+  "AlgebraicNorm": 1247,
+  "RationalNorm": 855,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "29": 1,
+    "43": 1
+  },
+  "RationalFactorization": {
+    "3": 2,
+    "5": 1,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 9,
+  "B": 32,
+  "AlgebraicNorm": -33031,
+  "RationalNorm": 1001,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "17": 1,
+    "29": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "7": 1,
+    "11": 1,
+    "13": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 78,
+  "B": 37,
+  "AlgebraicNorm": -210614,
+  "RationalNorm": 1225,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 1,
+    "31": 1,
+    "43": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "5": 2,
+    "7": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 24,
+  "B": 55,
+  "AlgebraicNorm": 313024,
+  "RationalNorm": 1729,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 6,
+    "67": 1,
+    "73": 1
+  },
+  "RationalFactorization": {
+    "7": 1,
+    "13": 1,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 157,
+  "B": 55,
+  "AlgebraicNorm": -4023707,
+  "RationalNorm": 1862,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "31": 2,
+    "53": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "2": 1,
+    "7": 2,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 39,
+  "B": 67,
+  "AlgebraicNorm": 1201669,
+  "RationalNorm": 2116,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "7": 1,
+    "41": 1,
+    "53": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "2": 2,
+    "23": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 138,
+  "B": 73,
+  "AlgebraicNorm": -10586,
+  "RationalNorm": 2401,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 1,
+    "67": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "7": 4
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 184,
+  "B": 81,
+  "AlgebraicNorm": -4147568,
+  "RationalNorm": 2695,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 4,
+    "53": 1,
+    "67": 1,
+    "73": 1
+  },
+  "RationalFactorization": {
+    "5": 1,
+    "7": 2,
+    "11": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 441,
+  "B": 89,
+  "AlgebraicNorm": -78204097,
+  "RationalNorm": 3200,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "17": 1,
+    "29": 1,
+    "41": 1,
+    "53": 1,
+    "73": 1
+  },
+  "RationalFactorization": {
+    "2": 7,
+    "5": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 173,
+  "B": 92,
+  "AlgebraicNorm": 110081,
+  "RationalNorm": 3025,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "31": 1,
+    "53": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "5": 2,
+    "11": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 199,
+  "B": 119,
+  "AlgebraicNorm": 5434673,
+  "RationalNorm": 3888,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "41": 2,
+    "53": 1,
+    "61": 1
+  },
+  "RationalFactorization": {
+    "2": 4,
+    "3": 5
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": -251,
+  "B": 188,
+  "AlgebraicNorm": -503902423,
+  "RationalNorm": 5577,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "17": 2,
+    "23": 1,
+    "41": 1,
+    "43": 2
+  },
+  "RationalFactorization": {
+    "3": 1,
+    "11": 1,
+    "13": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 376,
+  "B": 229,
+  "AlgebraicNorm": 43275568,
+  "RationalNorm": 7475,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 4,
+    "7": 1,
+    "67": 1,
+    "73": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "5": 2,
+    "13": 1,
+    "23": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 96,
+  "B": 287,
+  "AlgebraicNorm": 1405928,
+  "RationalNorm": 8993,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 3,
+    "43": 1,
+    "61": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "17": 1,
+    "23": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 596,
+  "B": 305,
+  "AlgebraicNorm": -32541364,
+  "RationalNorm": 10051,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 2,
+    "29": 1,
+    "53": 1,
+    "67": 1,
+    "79": 1
+  },
+  "RationalFactorization": {
+    "19": 1,
+    "23": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 652,
+  "B": 503,
+  "AlgebraicNorm": 835544084,
+  "RationalNorm": 16245,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "2": 2,
+    "17": 4,
+    "41": 1,
+    "61": 1
+  },
+  "RationalFactorization": {
+    "3": 2,
+    "5": 1,
+    "19": 2
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 184,
+  "B": 611,
+  "AlgebraicNorm": -136812928,
+  "RationalNorm": 19125,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "-1": 1,
+    "2": 7,
+    "7": 1,
+    "43": 1,
+    "53": 1,
+    "67": 1
+  },
+  "RationalFactorization": {
+    "3": 2,
+    "5": 3,
+    "17": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+},{
+  "A": 407,
+  "B": 1228,
+  "AlgebraicNorm": 464899,
+  "RationalNorm": 38475,
+  "AlgebraicQuotient": 1,
+  "RationalQuotient": 1,
+  "AlgebraicFactorization": {
+    "17": 1,
+    "23": 1,
+    "29": 1,
+    "41": 1
+  },
+  "RationalFactorization": {
+    "3": 4,
+    "5": 2,
+    "19": 1
+  },
+  "IsSmooth": true,
+  "IsRationalQuotientSmooth": true,
+  "IsAlgebraicQuotientSmooth": true
+}
