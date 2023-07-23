@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "MSieveDriver": {
+      "commandName": "Project",
+      "commandLineArgs": "msieve.py RSA-120.n"
+    }
+  }
+}
