@@ -27,12 +27,12 @@ namespace GNFSCore
                 return JsonConvert.DeserializeObject<T>(loadJson);
             }
 
-            public static T GenericFixedArray<T>(string filename)
-            {
-                string loadJson = File.ReadAllText(filename).TrimStart(',');
-                string fixedJson = FixAppendedJsonArrays(loadJson);
-                return JsonConvert.DeserializeObject<T>(fixedJson);
-            }
+			public static T GenericFixedArray<T>(string filename)
+			{
+				string loadJson = File.ReadAllText(filename).TrimStart(',');
+				string fixedJson = FixAppendedJsonArrays(loadJson);
+				return JsonConvert.DeserializeObject<T>(fixedJson);
+			}
 
             private static string FixAppendedJsonArrays(string input)
             {
@@ -136,71 +136,64 @@ namespace GNFSCore
 			}
 			*/
 
-            public static class FactorPair
-            {
-                public static void Rational(ref GNFS gnfs)
-                {
-                    string filename = Path.Combine(gnfs.SaveLocations.SaveDirectory, $"{nameof(GNFS.RationalFactorPairCollection)}.json");
-                    if (File.Exists(filename))
-                    {
-                        gnfs.RationalFactorPairCollection = Load.Generic<FactorPairCollection>(filename);
+			public static class FactorPair
+			{
+				public static void Rational(ref GNFS gnfs)
+				{
+					if (File.Exists(gnfs.SaveLocations.RationalFactorPair_SaveFile))
+					{
+						gnfs.RationalFactorPairCollection = Load.Generic<FactorPairCollection>(gnfs.SaveLocations.RationalFactorPair_SaveFile);
 
                     }
                 }
 
-                public static void Algebraic(ref GNFS gnfs)
-                {
-                    string filename = Path.Combine(gnfs.SaveLocations.SaveDirectory, $"{nameof(GNFS.AlgebraicFactorPairCollection)}.json");
-                    if (File.Exists(filename))
-                    {
-
-
-                        gnfs.AlgebraicFactorPairCollection = Load.Generic<FactorPairCollection>(filename);
-                    }
+				public static void Algebraic(ref GNFS gnfs)
+				{
+					if (File.Exists(gnfs.SaveLocations.AlgebraicFactorPair_SaveFile))
+					{
+						gnfs.AlgebraicFactorPairCollection = Load.Generic<FactorPairCollection>(gnfs.SaveLocations.AlgebraicFactorPair_SaveFile);
+					}
 
                 }
 
-                public static void Quadratic(ref GNFS gnfs)
-                {
-                    string filename = Path.Combine(gnfs.SaveLocations.SaveDirectory, $"{nameof(GNFS.QuadraticFactorPairCollection)}.json");
-                    if (File.Exists(filename))
-                    {
-                        gnfs.QuadraticFactorPairCollection = Load.Generic<FactorPairCollection>(filename);
-                    }
+				public static void Quadratic(ref GNFS gnfs)
+				{
+					if (File.Exists(gnfs.SaveLocations.QuadraticFactorPair_SaveFile))
+					{
+						gnfs.QuadraticFactorPairCollection = Load.Generic<FactorPairCollection>(gnfs.SaveLocations.QuadraticFactorPair_SaveFile);
+					}
 
                 }
             }
 
-            public static class Relations
-            {
-                public static void Smooth(ref GNFS gnfs)
-                {
-                    string filename = Path.Combine(gnfs.SaveLocations.SaveDirectory, $"{nameof(RelationContainer.SmoothRelations)}.json");
-                    if (File.Exists(filename))
-                    {
-                        List<Relation> temp = Load.GenericFixedArray<List<Relation>>(filename);
-                        var nullRels = temp.Where(x => x is null).ToList();
-                        if (nullRels.Any())
-                        {
-                            temp = temp.Where(x => !(x is null)).ToList();
-                            string bp = "";
-                        }
-                        temp.ForEach(rel => rel.IsPersisted = true);
-                        gnfs.CurrentRelationsProgress.SmoothRelationsCounter = temp.Count;
-                        gnfs.CurrentRelationsProgress.Relations.SmoothRelations = temp;
-                    }
-                }
+			public static class Relations
+			{
+				public static void Smooth(ref GNFS gnfs)
+				{
+					if (File.Exists(gnfs.SaveLocations.SmoothRelations_SaveFile))
+					{
+						List<Relation> temp = Load.GenericFixedArray<List<Relation>>(gnfs.SaveLocations.SmoothRelations_SaveFile);
+						var nullRels = temp.Where(x => x is null).ToList();
+						if (nullRels.Any())
+						{
+							temp = temp.Where(x => !(x is null)).ToList();
+							string bp = "";
+						}
+						temp.ForEach(rel => rel.IsPersisted = true);
+						gnfs.CurrentRelationsProgress.SmoothRelationsCounter = temp.Count;
+						gnfs.CurrentRelationsProgress.Relations.SmoothRelations = temp;
+					}
+				}
 
-                public static void Rough(ref GNFS gnfs)
-                {
-                    string filename = Path.Combine(gnfs.SaveLocations.SaveDirectory, $"{nameof(RelationContainer.RoughRelations)}.json");
-                    if (File.Exists(filename))
-                    {
-                        List<Relation> temp = Load.GenericFixedArray<List<Relation>>(filename);
-                        temp.ForEach(rel => rel.IsPersisted = true);
-                        gnfs.CurrentRelationsProgress.Relations.RoughRelations = temp;
-                    }
-                }
+				public static void Rough(ref GNFS gnfs)
+				{
+					if (File.Exists(gnfs.SaveLocations.RoughRelations_SaveFile))
+					{
+						List<Relation> temp = Load.GenericFixedArray<List<Relation>>(gnfs.SaveLocations.RoughRelations_SaveFile);
+						temp.ForEach(rel => rel.IsPersisted = true);
+						gnfs.CurrentRelationsProgress.Relations.RoughRelations = temp;
+					}
+				}
 
                 public static void Free(ref GNFS gnfs)
                 {
@@ -216,16 +209,16 @@ namespace GNFSCore
                     gnfs.CurrentRelationsProgress.Relations.FreeRelations.Clear();
                     gnfs.CurrentRelationsProgress.FreeRelationsCounter = 0;
 
-                    IEnumerable<string> freeRelations = Directory.EnumerateFiles(gnfs.SaveLocations.SaveDirectory, $"{nameof(RelationContainer.FreeRelations)}_*.json");
-                    foreach (string solution in freeRelations)
-                    {
-                        List<Relation> temp = Load.Generic<List<Relation>>(solution);
-                        temp.ForEach(rel => rel.IsPersisted = true);
-                        gnfs.CurrentRelationsProgress.Relations.FreeRelations.Add(temp);
-                        gnfs.CurrentRelationsProgress.FreeRelationsCounter += 1;
-                    }
-                }
-            }
-        }
-    }
+					IEnumerable<string> freeRelations = gnfs.SaveLocations.EnumerateFreeRelationFiles();
+					foreach (string solution in freeRelations)
+					{
+						List<Relation> temp = Load.Generic<List<Relation>>(solution);
+						temp.ForEach(rel => rel.IsPersisted = true);
+						gnfs.CurrentRelationsProgress.Relations.FreeRelations.Add(temp);
+						gnfs.CurrentRelationsProgress.FreeRelationsCounter += 1;
+					}
+				}
+			}
+		}
+	}
 }

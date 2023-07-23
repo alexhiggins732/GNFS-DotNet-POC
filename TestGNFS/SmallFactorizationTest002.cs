@@ -14,15 +14,15 @@ using System.Diagnostics;
 
 namespace TestGNFS.Integration
 {
-    [TestFixture]
-    public class SmallFactorizationTest
-    {
-        public TestContext TestContext
-        {
-            get { return testContextInstance; }
-            set { testContextInstance = value; }
-        }
-        TestContext testContextInstance;
+	[TestFixture]
+	public class SmallFactorizationTest002
+	{
+		public TestContext TestContext
+		{
+			get { return testContextInstance; }
+			set { testContextInstance = value; }
+		}
+		TestContext testContextInstance;
 
         private static int degree = 3;
         private static BigInteger polyBase = 31;
