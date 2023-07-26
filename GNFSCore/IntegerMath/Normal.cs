@@ -5,7 +5,9 @@ using ExtendedArithmetic;
 
 namespace GNFSCore.Factors
 {
+	using HigginsSoft.Math.Lib;
 	using Interfaces;
+	using MathGmp.Native;
 
 	public static class Normal
 	{
@@ -39,17 +41,23 @@ namespace GNFSCore.Factors
 		/// <returns></returns>
 		public static BigInteger Algebraic(BigInteger a, BigInteger b, Polynomial poly)
 		{
-			decimal aD = (decimal)a;
-			decimal bD = (decimal)b;
-			decimal ab = (-aD) / bD;
+			GmpFloat aD = a;
+			GmpFloat bD = b;
+			GmpFloat ab = (-aD) / bD;
 
-			decimal left = poly.Evaluate(ab);
-			BigInteger right = BigInteger.Pow(BigInteger.Negate(b), poly.Degree);
+			int num = poly.Degree;
+			GmpFloat left = poly[num];
+			while (--num >= 0)
+			{
+				left *= ab;
+				left += (GmpFloat)poly[num];
+			}
+			var right = BigInteger.Pow(BigInteger.Negate(b), poly.Degree);
 
-			decimal product = (decimal)right;
+			var product = (GmpFloat)right;
 			product *= left;
 
-			BigInteger result = (BigInteger)Math.Round(product);
+			var result = (BigInteger)(GmpInt)MathLib.Round(product);
 			return result;
 		}
 

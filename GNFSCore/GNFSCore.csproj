@@ -28,6 +28,7 @@
 
 	<ItemGroup>
 		<PackageReference Include="ExtendedArithmetic.Polynomial" Version="2022.152.744" />
+		<PackageReference Include="HigginsSoft.Math" Version="1.0.27.1918" />
 		<PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
 		<PackageReference Include="System.Management" Version="7.0.2" />
 	</ItemGroup>
